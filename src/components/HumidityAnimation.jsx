@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { WaterDrop } from "@mui/icons-material";
 
 const HumidityAnimation = ({ humidity = 50 }) => {
-  // Calculate number of drops based on humidity percentage
+  
   const dropCount = Math.floor((humidity / 100) * 30); // Increased from 20 to 30
   
-  // Slower drop speed (higher number = slower)
+  
   const dropSpeed = 3 + (humidity / 100) * 4; // Increased from 1-3 to 3-7
 
   const dropVariants = {
