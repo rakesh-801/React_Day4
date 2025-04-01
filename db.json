@@ -1,0 +1,174 @@
+{
+  "weather": [
+    {
+      "id": "8ef5",
+      "city": "Hyderabad 1",
+      "country": "India 1",
+      "date": "2025-03-30",
+      "temperature": 2,
+      "condition": "Cloudy 1",
+      "wind": 10,
+      "clouds": 10,
+      "humidity": 90,
+      "forecasts": [
+        {
+          "time": "09:00",
+          "temp": 11
+        },
+        {
+          "time": "12:00",
+          "temp": 13
+        },
+        {
+          "time": "15:00",
+          "temp": 10
+        }
+      ],
+      "weeklyForecast": [
+        {
+          "day": "Monday",
+          "temp": 111,
+          "wind": 11,
+          "condition": "Hot1",
+          "humidity": 10
+        },
+        {
+          "day": "Tuesday",
+          "temp": 11,
+          "wind": 11,
+          "condition": "cool1",
+          "humidity": 10
+        },
+        {
+          "day": "Friday",
+          "temp": 11,
+          "wind": 11,
+          "condition": "Foggy1",
+          "humidity": 11
+        },
+        {
+          "day": "Sunday",
+          "temp": 11,
+          "wind": 11,
+          "condition": "Thunderstorm1",
+          "humidity": 11
+        },
+        {
+          "day": "Wednesday",
+          "temp": 11,
+          "wind": 11,
+          "condition": "cool1",
+          "humidity": 10
+        }
+      ]
+    },
+    {
+      "id": "6f06",
+      "city": "Macherla",
+      "country": "India",
+      "date": "2025-03-30",
+      "temperature": 100,
+      "condition": "Cloudy",
+      "wind": 10,
+      "clouds": 10,
+      "humidity": 11,
+      "forecasts": [
+        {
+          "time": "09:00",
+          "temp": 11
+        },
+        {
+          "time": "12:00",
+          "temp": 11
+        },
+        {
+          "time": "15:00",
+          "temp": 11
+        }
+      ],
+      "weeklyForecast": []
+    },
+    {
+      "id": "08f1",
+      "city": "London 123",
+      "country": "GB",
+      "date": "2025-03-30",
+      "temperature": 4,
+      "condition": "12",
+      "wind": 4,
+      "clouds": 120,
+      "humidity": 11,
+      "forecasts": [
+        {
+          "time": "09:00",
+          "temp": 12
+        },
+        {
+          "time": "12:00",
+          "temp": 12
+        },
+        {
+          "time": "15:00",
+          "temp": 12
+        }
+      ],
+      "weeklyForecast": [
+        {
+          "day": "Monday",
+          "temp": 10,
+          "wind": 10,
+          "condition": "cool",
+          "humidity": 17
+        },
+        {
+          "day": "Tuesday",
+          "temp": 10,
+          "wind": 23,
+          "condition": "Thunderstorm",
+          "humidity": 15
+        }
+      ]
+    },
+    {
+      "id": "9f92",
+      "city": "Guntur",
+      "country": "India",
+      "date": "2025-03-30",
+      "temperature": 0,
+      "condition": "Cloudy",
+      "wind": 8,
+      "clouds": 100,
+      "humidity": 21,
+      "forecasts": [
+        {
+          "time": "09:00",
+          "temp": 12
+        },
+        {
+          "time": "12:00",
+          "temp": 21
+        },
+        {
+          "time": "15:00",
+          "temp": 21
+        }
+      ],
+      "weeklyForecast": [
+        {
+          "day": "Monday",
+          "temp": 12,
+          "wind": 12,
+          "condition": "Rainy",
+          "humidity": 12
+        },
+        {
+          "day": "Tuesday",
+          "temp": 23,
+          "wind": 12,
+          "condition": "Hot",
+          "humidity": 23
+        }
+      ]
+    }
+  ]
+}
