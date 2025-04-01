@@ -4,9 +4,8 @@ import { motion } from 'framer-motion';
 import { WiCloudy, WiDayCloudy, WiDaySunny, WiStrongWind } from 'react-icons/wi';
 
 const WeatherVisualization = ({ windSpeed, cloudPercentage }) => {
-  // Calculate animation parameters based on weather data
-  const windIntensity = Math.min(windSpeed / 20, 2); // Normalize wind speed
-  const cloudDensity = Math.min(cloudPercentage / 20, 5); // Normalize cloud percentage
+  const windIntensity = Math.min(windSpeed / 20, 2); 
+  const cloudDensity = Math.min(cloudPercentage / 20, 5); 
 
   return (
     <Box sx={{ 
