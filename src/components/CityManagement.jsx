@@ -15,7 +15,7 @@ const CityManagement = () => {
   const [message, setMessage] = useState({ text: '', severity: 'info' });
   const [weatherData, setWeatherData] = useState([]);
 
-  // Fetch all weather data on component mount
+  
   React.useEffect(() => {
     const fetchData = async () => {
       try {
@@ -49,7 +49,7 @@ const CityManagement = () => {
         severity: 'success' 
       });
       
-      // Refresh the weather data list
+      
       const updatedData = await getWeatherData();
       setWeatherData(updatedData);
       setCityToDelete('');
@@ -60,7 +60,7 @@ const CityManagement = () => {
     }
   };
 
-  // Get unique cities from weather data
+  
   const uniqueCities = [...new Set(weatherData.map(item => item.city))];
 
   return (
